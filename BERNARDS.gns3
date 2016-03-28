@@ -37,28 +37,6 @@
         ],
         "links": [
             {
-                "description": "Link from IGW port GigabitEthernet3/0 to SPOKE3 port GigabitEthernet1/0",
-                "destination_node_id": 7,
-                "destination_port_id": 35,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": -30.82382654495987,
-                    "y": -17.84924568153103
-                },
-                "id": 1,
-                "source_node_id": 4,
-                "source_port_id": 11,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g3/0",
-                    "x": 74.82382654495987,
-                    "y": 67.84924568153104
-                }
-            },
-            {
                 "description": "Link from IGW port GigabitEthernet1/0 to SPOKE1 port GigabitEthernet1/0",
                 "destination_node_id": 5,
                 "destination_port_id": 21,
@@ -69,7 +47,7 @@
                     "x": 83.38094602368,
                     "y": -4.659813998790128
                 },
-                "id": 2,
+                "id": 1,
                 "source_node_id": 4,
                 "source_port_id": 14,
                 "source_port_label": {
@@ -91,7 +69,7 @@
                     "x": 39.974695968297965,
                     "y": -46.98685723637925
                 },
-                "id": 3,
+                "id": 2,
                 "source_node_id": 3,
                 "source_port_id": 2,
                 "source_port_label": {
@@ -110,10 +88,10 @@
                     "color": "#000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "g1/0",
-                    "x": 67.67499831968837,
-                    "y": -17.61836474074113
+                    "x": 56.67499831968837,
+                    "y": -16.61836474074113
                 },
-                "id": 4,
+                "id": 3,
                 "source_node_id": 4,
                 "source_port_id": 12,
                 "source_port_label": {
@@ -135,7 +113,7 @@
                     "x": -52.02206545458313,
                     "y": -0.3899626332470234
                 },
-                "id": 5,
+                "id": 4,
                 "source_node_id": 4,
                 "source_port_id": 15,
                 "source_port_label": {
@@ -144,6 +122,72 @@
                     "text": "g4/0",
                     "x": 80.02206545458313,
                     "y": 23.389962633247023
+                }
+            },
+            {
+                "description": "Link from IGW port GigabitEthernet3/0 to SPOKE3 port GigabitEthernet1/0",
+                "destination_node_id": 7,
+                "destination_port_id": 35,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": -30.82382654495987,
+                    "y": -17.84924568153103
+                },
+                "id": 5,
+                "source_node_id": 4,
+                "source_port_id": 11,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g3/0",
+                    "x": 74.82382654495987,
+                    "y": 67.84924568153104
+                }
+            },
+            {
+                "description": "Link from IGW port GigabitEthernet5/0 to Karla_Our_Beloved port GigabitEthernet1/0",
+                "destination_node_id": 9,
+                "destination_port_id": 70,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": -29.97028411609614,
+                    "y": 37.5415536573701
+                },
+                "id": 6,
+                "source_node_id": 4,
+                "source_port_id": 13,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g5/0",
+                    "x": 72.97028411609615,
+                    "y": 20.458446342629898
+                }
+            },
+            {
+                "description": "Link from Milton port GigabitEthernet1/0 to IGW port GigabitEthernet6/0",
+                "destination_node_id": 4,
+                "destination_port_id": 10,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g6/0",
+                    "x": -5.609697908670171,
+                    "y": 11.545755531783705
+                },
+                "id": 7,
+                "source_node_id": 10,
+                "source_port_id": 77,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 71.60969790867017,
+                    "y": 32.45424446821629
                 }
             }
         ],
@@ -167,6 +211,27 @@
                         "port_number": 0
                     },
                     {
+                        "adapter_number": 2,
+                        "id": 5,
+                        "name": "GigabitEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to IGW on port FastEthernet0/0",
+                        "id": 2,
+                        "link_id": 2,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 3,
+                        "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 5,
                         "id": 6,
                         "name": "GigabitEthernet5/0",
@@ -179,30 +244,9 @@
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
-                        "id": 5,
-                        "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "id": 4,
                         "name": "GigabitEthernet3/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "description": "connected to IGW on port FastEthernet0/0",
-                        "id": 2,
-                        "link_id": 3,
-                        "name": "FastEthernet0/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 6,
-                        "id": 3,
-                        "name": "GigabitEthernet6/0",
                         "port_number": 0
                     }
                 ],
@@ -267,23 +311,8 @@
                         "adapter_number": 4,
                         "description": "connected to SPOKE4 on port GigabitEthernet1/0",
                         "id": 15,
-                        "link_id": 5,
+                        "link_id": 4,
                         "name": "GigabitEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 5,
-                        "id": 13,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to SPOKE1 on port GigabitEthernet1/0",
-                        "id": 14,
-                        "link_id": 2,
-                        "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -291,17 +320,8 @@
                         "adapter_number": 2,
                         "description": "connected to SPOKE2 on port GigabitEthernet1/0",
                         "id": 12,
-                        "link_id": 4,
+                        "link_id": 3,
                         "name": "GigabitEthernet2/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 3,
-                        "description": "connected to SPOKE3 on port GigabitEthernet1/0",
-                        "id": 11,
-                        "link_id": 1,
-                        "name": "GigabitEthernet3/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -309,15 +329,45 @@
                         "adapter_number": 0,
                         "description": "connected to HUB on port FastEthernet0/0",
                         "id": 9,
-                        "link_id": 3,
+                        "link_id": 2,
                         "name": "FastEthernet0/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
                         "adapter_number": 6,
+                        "description": "connected to Milton on port GigabitEthernet1/0",
                         "id": 10,
+                        "link_id": 7,
                         "name": "GigabitEthernet6/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "description": "connected to Karla_Our_Beloved on port GigabitEthernet1/0",
+                        "id": 13,
+                        "link_id": 6,
+                        "name": "GigabitEthernet5/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to SPOKE1 on port GigabitEthernet1/0",
+                        "id": 14,
+                        "link_id": 1,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "description": "connected to SPOKE3 on port GigabitEthernet1/0",
+                        "id": 11,
+                        "link_id": 5,
+                        "name": "GigabitEthernet3/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     }
                 ],
@@ -385,30 +435,9 @@
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 5,
-                        "id": 20,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to IGW on port GigabitEthernet1/0",
-                        "id": 21,
-                        "link_id": 2,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 2,
                         "id": 19,
                         "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 3,
-                        "id": 18,
-                        "name": "GigabitEthernet3/0",
                         "port_number": 0
                     },
                     {
@@ -421,6 +450,27 @@
                         "adapter_number": 6,
                         "id": 17,
                         "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 20,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet1/0",
+                        "id": 21,
+                        "link_id": 1,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 18,
+                        "name": "GigabitEthernet3/0",
                         "port_number": 0
                     }
                 ],
@@ -488,30 +538,9 @@
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 5,
-                        "id": 27,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to IGW on port GigabitEthernet2/0",
-                        "id": 28,
-                        "link_id": 4,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 2,
                         "id": 26,
                         "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 3,
-                        "id": 25,
-                        "name": "GigabitEthernet3/0",
                         "port_number": 0
                     },
                     {
@@ -524,6 +553,27 @@
                         "adapter_number": 6,
                         "id": 24,
                         "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 27,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet2/0",
+                        "id": 28,
+                        "link_id": 3,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 25,
+                        "name": "GigabitEthernet3/0",
                         "port_number": 0
                     }
                 ],
@@ -591,30 +641,9 @@
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 5,
-                        "id": 34,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to IGW on port GigabitEthernet3/0",
-                        "id": 35,
-                        "link_id": 1,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 2,
                         "id": 33,
                         "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 3,
-                        "id": 32,
-                        "name": "GigabitEthernet3/0",
                         "port_number": 0
                     },
                     {
@@ -627,6 +656,27 @@
                         "adapter_number": 6,
                         "id": 31,
                         "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 34,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet3/0",
+                        "id": 35,
+                        "link_id": 5,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 32,
+                        "name": "GigabitEthernet3/0",
                         "port_number": 0
                     }
                 ],
@@ -694,30 +744,9 @@
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 5,
-                        "id": 41,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to IGW on port GigabitEthernet4/0",
-                        "id": 42,
-                        "link_id": 5,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 2,
                         "id": 40,
                         "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 3,
-                        "id": 39,
-                        "name": "GigabitEthernet3/0",
                         "port_number": 0
                     },
                     {
@@ -730,6 +759,27 @@
                         "adapter_number": 6,
                         "id": 38,
                         "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 41,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet4/0",
+                        "id": 42,
+                        "link_id": 4,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 39,
+                        "name": "GigabitEthernet3/0",
                         "port_number": 0
                     }
                 ],
@@ -777,6 +827,212 @@
                 "vm_id": "7bc06ff2-3635-4489-b051-ba299a7002bc",
                 "x": 260.0,
                 "y": 97.0
+            },
+            {
+                "description": "Router c7200",
+                "dynamips_id": 7,
+                "id": 9,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Karla_Our_Beloved",
+                    "x": -32.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 4,
+                        "id": 65,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 66,
+                        "name": "GigabitEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 67,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 68,
+                        "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 69,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet5/0",
+                        "id": 70,
+                        "link_id": 6,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 71,
+                        "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "clock_divisor": 4,
+                    "console": 2007,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60779618",
+                    "idlesleep": 30,
+                    "image": "c7200-adventerprisek9_sna-mz.150-1.M.image",
+                    "mac_addr": "ca07.24cc.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "name": "Karla_Our_Beloved",
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-GE",
+                    "slot2": "PA-GE",
+                    "slot3": "PA-GE",
+                    "slot4": "PA-GE",
+                    "slot5": "PA-GE",
+                    "slot6": "PA-GE",
+                    "sparsemem": true,
+                    "startup_config": "configs/i7_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 2,
+                "type": "C7200",
+                "vm_id": "9c5ff2cd-3b1d-4ab1-b4ac-eb0eafa6317a",
+                "x": 280.0,
+                "y": -124.0
+            },
+            {
+                "description": "Router c7200",
+                "dynamips_id": 8,
+                "id": 10,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Milton",
+                    "x": 9.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 4,
+                        "id": 72,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 73,
+                        "name": "GigabitEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 74,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 75,
+                        "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 76,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet6/0",
+                        "id": 77,
+                        "link_id": 7,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 78,
+                        "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "clock_divisor": 4,
+                    "console": 2008,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60779618",
+                    "idlesleep": 30,
+                    "image": "c7200-adventerprisek9_sna-mz.150-1.M.image",
+                    "mac_addr": "ca08.0e88.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "name": "Milton",
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-GE",
+                    "slot2": "PA-GE",
+                    "slot3": "PA-GE",
+                    "slot4": "PA-GE",
+                    "slot5": "PA-GE",
+                    "slot6": "PA-GE",
+                    "sparsemem": true,
+                    "startup_config": "configs/i8_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 2,
+                "type": "C7200",
+                "vm_id": "face4893-cd5d-4566-b92e-6eb0f21ecc74",
+                "x": -345.541197284454,
+                "y": -128.06601717798213
             }
         ],
         "notes": [
