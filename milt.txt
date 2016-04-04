@@ -1,27 +1,110 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.04.03 15:46:02 =~=~=~=~=~=~=~=~=~=~=~=
+
+Building configuration...
+
+Current configuration : 1279 bytes
 !
-!
+version 12.4
 service timestamps debug datetime msec
 service timestamps log datetime msec
 no service password-encryption
 !
-hostname Milton
+hostname Milt
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+!
 !
 ip cef
-no ip domain-lookup
-no ip icmp rate-limit unreachable
-ip tcp synwait 5
-no cdp log mismatch duplex
+!
+!
+multilink bundle-name authenticated
+!
+!
+!
+! 
+!
+archive
+ log config
+  hidekeys
+!
+!
+!
+!
+!
+interface Tunnel100
+ ip address 192.168.100.7 255.255.255.0
+ tunnel source GigabitEthernet1/0
+ tunnel destination 172.18.10.1
+!
+interface FastEthernet0/0
+ no ip address
+ shutdown
+ duplex half
+!
+interface GigabitEthernet1/0
+ ip address 172.18.70.2 255.255.255.252
+ negotiation auto
+!
+interface GigabitEthernet2/0
+ no ip address
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet3/0
+ no ip address
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet4/0
+ no ip address
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet5/0
+ no ip address
+ shutdown
+ negotiation auto
+!
+interface GigabitEthernet6/0
+ no ip address
+ negotiation auto
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+router ospf 100
+ log-adjacency-changes
+ network 192.168.100.0 0.0.0.255 area 0
+!
+ip route 172.18.10.0 255.255.255.0 172.18.70.1 name TO_HUB
+!
+no ip http server
+no ip http secure-server
+!
+!
+logging history size 500
+logging alarm informational
+!
+!
+control-plane
+!
 !
 line con 0
- exec-timeout 0 0
- logging synchronous
- privilege level 15
- no login
+ stopbits 1
 line aux 0
- exec-timeout 0 0
- logging synchronous
- privilege level 15
- no login
+line vty 0 4
 !
 !
 end
+
+Milt#
