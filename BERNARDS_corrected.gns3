@@ -1,5 +1,5 @@
 {
-    "auto_start": true,
+    "auto_start": false,
     "name": "BERNARDS_corrected",
     "project_id": "33d1ed4c-c63f-4f19-95d4-65fcf8dfb6a1",
     "revision": 4,
@@ -88,8 +88,8 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "g1/0",
-                    "x": 15.847918312891153,
-                    "y": -14.135939088374954
+                    "x": -23.152081687108847,
+                    "y": -23.135939088374954
                 },
                 "id": 3,
                 "source_node_id": 11,
@@ -110,8 +110,8 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "g4/0",
-                    "x": -0.26610925013045517,
-                    "y": -0.21184313285108658
+                    "x": -1.2661092501304552,
+                    "y": -24.211843132851087
                 },
                 "id": 4,
                 "source_node_id": 11,
@@ -154,7 +154,7 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "g1/0",
-                    "x": -6.9998071076026065,
+                    "x": -40.99980710760261,
                     "y": 21.875776996560234
                 },
                 "id": 6,
@@ -200,43 +200,10 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "Vance",
-                    "x": 9.0,
-                    "y": -25.0
+                    "x": 7.0,
+                    "y": 17.0
                 },
                 "ports": [
-                    {
-                        "adapter_number": 4,
-                        "id": 22,
-                        "name": "GigabitEthernet4/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 19,
-                        "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 6,
-                        "id": 17,
-                        "name": "GigabitEthernet6/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to IGW on port GigabitEthernet1/0",
-                        "id": 21,
-                        "link_id": 1,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 5,
-                        "id": 20,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
                     {
                         "adapter_number": 0,
                         "id": 16,
@@ -247,6 +214,39 @@
                         "adapter_number": 3,
                         "id": 18,
                         "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 22,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 17,
+                        "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 20,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 19,
+                        "name": "GigabitEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet1/0",
+                        "id": 21,
+                        "link_id": 1,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     }
                 ],
@@ -261,7 +261,7 @@
                     "idlepc": "0x60779618",
                     "idlesleep": 30,
                     "image": "C:/Users/Milt/GNS3/Images/IOS/c7200-adventerprisek9_sna-mz.150-1.M.image",
-                    "image_md5sum": "3b183930c4d0abe83e91b3ebf3c33a0a",
+                    "image_md5sum": "4b91d8ca34fb1ae4db17dff3dafe5a89",
                     "mac_addr": "ca03.096c.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -305,43 +305,10 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "Wayne",
-                    "x": 6.5,
-                    "y": -25.0
+                    "x": 5.5,
+                    "y": 17.0
                 },
                 "ports": [
-                    {
-                        "adapter_number": 4,
-                        "id": 29,
-                        "name": "GigabitEthernet4/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 26,
-                        "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 6,
-                        "id": 24,
-                        "name": "GigabitEthernet6/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to IGW on port GigabitEthernet2/0",
-                        "id": 28,
-                        "link_id": 2,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 5,
-                        "id": 27,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
                     {
                         "adapter_number": 0,
                         "id": 23,
@@ -352,6 +319,39 @@
                         "adapter_number": 3,
                         "id": 25,
                         "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 29,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 24,
+                        "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 27,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 26,
+                        "name": "GigabitEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet2/0",
+                        "id": 28,
+                        "link_id": 2,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     }
                 ],
@@ -366,7 +366,7 @@
                     "idlepc": "0x60779618",
                     "idlesleep": 30,
                     "image": "C:/Users/Milt/GNS3/Images/IOS/c7200-adventerprisek9_sna-mz.150-1.M.image",
-                    "image_md5sum": "3b183930c4d0abe83e91b3ebf3c33a0a",
+                    "image_md5sum": "4b91d8ca34fb1ae4db17dff3dafe5a89",
                     "mac_addr": "ca04.0e3c.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -411,42 +411,9 @@
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "Brent",
                     "x": 11.0,
-                    "y": -25.0
+                    "y": 18.0
                 },
                 "ports": [
-                    {
-                        "adapter_number": 4,
-                        "id": 36,
-                        "name": "GigabitEthernet4/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 33,
-                        "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 6,
-                        "id": 31,
-                        "name": "GigabitEthernet6/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to IGW on port GigabitEthernet3/0",
-                        "id": 35,
-                        "link_id": 3,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 5,
-                        "id": 34,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
                     {
                         "adapter_number": 0,
                         "id": 30,
@@ -457,6 +424,39 @@
                         "adapter_number": 3,
                         "id": 32,
                         "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 36,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 31,
+                        "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 34,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 33,
+                        "name": "GigabitEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet3/0",
+                        "id": 35,
+                        "link_id": 3,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     }
                 ],
@@ -471,7 +471,7 @@
                     "idlepc": "0x60779618",
                     "idlesleep": 30,
                     "image": "C:/Users/Milt/GNS3/Images/IOS/c7200-adventerprisek9_sna-mz.150-1.M.image",
-                    "image_md5sum": "3b183930c4d0abe83e91b3ebf3c33a0a",
+                    "image_md5sum": "4b91d8ca34fb1ae4db17dff3dafe5a89",
                     "mac_addr": "ca05.0b20.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -515,43 +515,10 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "Robert",
-                    "x": 6.5,
-                    "y": -25.0
+                    "x": 7.5,
+                    "y": 18.0
                 },
                 "ports": [
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to IGW on port GigabitEthernet4/0",
-                        "id": 43,
-                        "link_id": 4,
-                        "name": "GigabitEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 40,
-                        "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 6,
-                        "id": 38,
-                        "name": "GigabitEthernet6/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "id": 42,
-                        "name": "GigabitEthernet1/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 5,
-                        "id": 41,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
                     {
                         "adapter_number": 0,
                         "id": 37,
@@ -562,6 +529,39 @@
                         "adapter_number": 3,
                         "id": 39,
                         "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "description": "connected to IGW on port GigabitEthernet4/0",
+                        "id": 43,
+                        "link_id": 4,
+                        "name": "GigabitEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 38,
+                        "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 41,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 40,
+                        "name": "GigabitEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 42,
+                        "name": "GigabitEthernet1/0",
                         "port_number": 0
                     }
                 ],
@@ -576,7 +576,7 @@
                     "idlepc": "0x60779618",
                     "idlesleep": 30,
                     "image": "C:/Users/Milt/GNS3/Images/IOS/c7200-adventerprisek9_sna-mz.150-1.M.image",
-                    "image_md5sum": "3b183930c4d0abe83e91b3ebf3c33a0a",
+                    "image_md5sum": "4b91d8ca34fb1ae4db17dff3dafe5a89",
                     "mac_addr": "ca06.0a44.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -625,51 +625,6 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 4,
-                        "description": "connected to Robert on port GigabitEthernet4/0",
-                        "id": 54,
-                        "link_id": 4,
-                        "name": "GigabitEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "description": "connected to Wayne on port GigabitEthernet1/0",
-                        "id": 55,
-                        "link_id": 2,
-                        "name": "GigabitEthernet2/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 6,
-                        "description": "connected to Milton on port GigabitEthernet1/0",
-                        "id": 51,
-                        "link_id": 5,
-                        "name": "GigabitEthernet6/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to Vance on port GigabitEthernet1/0",
-                        "id": 56,
-                        "link_id": 1,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 5,
-                        "description": "connected to Karla on port GigabitEthernet1/0",
-                        "id": 57,
-                        "link_id": 6,
-                        "name": "GigabitEthernet5/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 0,
                         "description": "connected to HUB on port FastEthernet0/0",
                         "id": 53,
@@ -686,6 +641,51 @@
                         "name": "GigabitEthernet3/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "description": "connected to Robert on port GigabitEthernet4/0",
+                        "id": 54,
+                        "link_id": 4,
+                        "name": "GigabitEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "description": "connected to Milton on port GigabitEthernet1/0",
+                        "id": 51,
+                        "link_id": 5,
+                        "name": "GigabitEthernet6/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "description": "connected to Karla on port GigabitEthernet1/0",
+                        "id": 57,
+                        "link_id": 6,
+                        "name": "GigabitEthernet5/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to Wayne on port GigabitEthernet1/0",
+                        "id": 55,
+                        "link_id": 2,
+                        "name": "GigabitEthernet2/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to Vance on port GigabitEthernet1/0",
+                        "id": 56,
+                        "link_id": 1,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
                     }
                 ],
                 "properties": {
@@ -699,7 +699,7 @@
                     "idlepc": "0x602c2d40",
                     "idlesleep": 30,
                     "image": "C:/Users/Milt/GNS3/Images/IOS/c7200-adventerprisek9_sna-mz.150-1.M.image",
-                    "image_md5sum": "3b183930c4d0abe83e91b3ebf3c33a0a",
+                    "image_md5sum": "4b91d8ca34fb1ae4db17dff3dafe5a89",
                     "mac_addr": "ca09.7edd.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -743,43 +743,10 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "Milton",
-                    "x": 5.8984375,
-                    "y": -25.0
+                    "x": 9.8984375,
+                    "y": 18.0
                 },
                 "ports": [
-                    {
-                        "adapter_number": 4,
-                        "id": 61,
-                        "name": "GigabitEthernet4/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 62,
-                        "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 6,
-                        "id": 58,
-                        "name": "GigabitEthernet6/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to IGW on port GigabitEthernet6/0",
-                        "id": 63,
-                        "link_id": 5,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 5,
-                        "id": 64,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
                     {
                         "adapter_number": 0,
                         "id": 60,
@@ -790,6 +757,39 @@
                         "adapter_number": 3,
                         "id": 59,
                         "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 61,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 58,
+                        "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 64,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 62,
+                        "name": "GigabitEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet6/0",
+                        "id": 63,
+                        "link_id": 5,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     }
                 ],
@@ -804,7 +804,7 @@
                     "idlepc": "0x602c2d40",
                     "idlesleep": 30,
                     "image": "C:/Users/Milt/GNS3/Images/IOS/c7200-adventerprisek9_sna-mz.150-1.M.image",
-                    "image_md5sum": "3b183930c4d0abe83e91b3ebf3c33a0a",
+                    "image_md5sum": "4b91d8ca34fb1ae4db17dff3dafe5a89",
                     "mac_addr": "ca0a.7eec.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -848,43 +848,10 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "Karla",
-                    "x": 9.7734375,
-                    "y": -25.0
+                    "x": 13.7734375,
+                    "y": 19.0
                 },
                 "ports": [
-                    {
-                        "adapter_number": 4,
-                        "id": 68,
-                        "name": "GigabitEthernet4/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 69,
-                        "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 6,
-                        "id": 65,
-                        "name": "GigabitEthernet6/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "description": "connected to IGW on port GigabitEthernet5/0",
-                        "id": 70,
-                        "link_id": 6,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 5,
-                        "id": 71,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
                     {
                         "adapter_number": 0,
                         "id": 67,
@@ -895,6 +862,39 @@
                         "adapter_number": 3,
                         "id": 66,
                         "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 68,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 65,
+                        "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 71,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 69,
+                        "name": "GigabitEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to IGW on port GigabitEthernet5/0",
+                        "id": 70,
+                        "link_id": 6,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
                         "port_number": 0
                     }
                 ],
@@ -909,7 +909,7 @@
                     "idlepc": "0x602c2d40",
                     "idlesleep": 30,
                     "image": "C:/Users/Milt/GNS3/Images/IOS/c7200-adventerprisek9_sna-mz.150-1.M.image",
-                    "image_md5sum": "3b183930c4d0abe83e91b3ebf3c33a0a",
+                    "image_md5sum": "4b91d8ca34fb1ae4db17dff3dafe5a89",
                     "mac_addr": "ca0b.7efb.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -953,40 +953,10 @@
                     "color": "#ff000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "HUB",
-                    "x": 13.3359375,
-                    "y": -25.0
+                    "x": 17.3359375,
+                    "y": 18.0
                 },
                 "ports": [
-                    {
-                        "adapter_number": 4,
-                        "id": 75,
-                        "name": "GigabitEthernet4/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "id": 76,
-                        "name": "GigabitEthernet2/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 6,
-                        "id": 72,
-                        "name": "GigabitEthernet6/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "id": 77,
-                        "name": "GigabitEthernet1/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 5,
-                        "id": 78,
-                        "name": "GigabitEthernet5/0",
-                        "port_number": 0
-                    },
                     {
                         "adapter_number": 0,
                         "description": "connected to IGW on port FastEthernet0/0",
@@ -1001,6 +971,36 @@
                         "id": 73,
                         "name": "GigabitEthernet3/0",
                         "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 75,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 6,
+                        "id": 72,
+                        "name": "GigabitEthernet6/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "id": 78,
+                        "name": "GigabitEthernet5/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 76,
+                        "name": "GigabitEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 77,
+                        "name": "GigabitEthernet1/0",
+                        "port_number": 0
                     }
                 ],
                 "properties": {
@@ -1014,7 +1014,7 @@
                     "idlepc": "0x60828044",
                     "idlesleep": 30,
                     "image": "C:/Users/Milt/GNS3/Images/IOS/c7200-adventerprisek9_sna-mz.150-1.M.image",
-                    "image_md5sum": "3b183930c4d0abe83e91b3ebf3c33a0a",
+                    "image_md5sum": "4b91d8ca34fb1ae4db17dff3dafe5a89",
                     "mac_addr": "ca0c.7f0a.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -1063,8 +1063,8 @@
                 "color": "#ff000000",
                 "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                 "text": "172.18.70.0/30",
-                "x": -261.0,
-                "y": -129.0
+                "x": -252.0,
+                "y": -124.0
             },
             {
                 "color": "#ff000000",
