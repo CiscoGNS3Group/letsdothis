@@ -1,37 +1,29 @@
 
 !
-! Last configuration change at 20:08:12 UTC Sun May 8 2016
-!
 upgrade fpd auto
 version 15.0
 service timestamps debug datetime msec
 service timestamps log datetime msec
 no service password-encryption
 !
-hostname Robert
+hostname SPOKE3
 !
 boot-start-marker
 boot-end-marker
 !
 !
-aaa new-model
-!
-!
-!
-!
-!
-!
-!
-aaa session-id common
+no aaa new-model
 !
 !
 !
 ip source-route
+no ip icmp rate-limit unreachable
 ip cef
 !
 !
 !
 !
+no ip domain lookup
 no ipv6 cef
 !
 multilink bundle-name authenticated
@@ -47,6 +39,7 @@ multilink bundle-name authenticated
 redundancy
 !
 !
+ip tcp synwait-time 5
 ! 
 !
 !
@@ -55,31 +48,15 @@ redundancy
 !
 !
 !
-interface Loopback1
- ip address 5.5.5.5 255.255.255.255
- !
-!
-interface Tunnel100
- ip address 192.168.100.5 255.255.255.0
- no ip redirects
- ip nhrp map multicast 172.18.10.1
- ip nhrp map 192.168.100.1 172.18.10.1
- ip nhrp network-id 1
- ip nhrp nhs 192.168.100.1
- ip nhrp shortcut
- ip ospf network point-to-multipoint
- tunnel source GigabitEthernet1/0
- tunnel mode gre multipoint
- !
-!
 interface FastEthernet0/0
  no ip address
  shutdown
- duplex full
+ duplex half
  !
 !
 interface GigabitEthernet1/0
- ip address 172.18.50.2 255.255.255.252
+ no ip address
+ shutdown
  negotiation auto
  !
 !
@@ -114,22 +91,13 @@ interface GigabitEthernet6/0
  !
 !
 !
-router ospf 1
- log-adjacency-changes
- network 192.168.100.0 0.0.0.255 area 0
-!
 ip forward-protocol nd
 no ip http server
 no ip http secure-server
 !
 !
-ip route 172.18.10.0 255.255.255.0 172.18.50.1
-ip route 172.18.20.0 255.255.255.252 172.18.50.1
-ip route 172.18.30.0 255.255.255.252 172.18.50.1
-ip route 172.18.40.0 255.255.255.252 172.18.50.1
-ip route 172.18.60.0 255.255.255.252 172.18.50.1
-ip route 172.18.70.0 255.255.255.252 172.18.50.1
 !
+no cdp log mismatch duplex
 !
 !
 !
@@ -150,10 +118,16 @@ gatekeeper
 !
 !
 line con 0
+ exec-timeout 0 0
+ privilege level 15
  logging synchronous
  stopbits 1
 line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
  stopbits 1
 line vty 0 4
+ login
 !
 end
